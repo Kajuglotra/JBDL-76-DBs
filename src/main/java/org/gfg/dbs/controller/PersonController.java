@@ -23,7 +23,7 @@ public class PersonController {
     @PostMapping("/addPerson")
     public int addPerson(@RequestParam(value = "name", required = false) String name,
                          @RequestParam("id") int id){
-        return  service.addPerson(name, id);
+        return  service.addPersonWithJPA(name, id);
     }
 }
 // put : updates, create one

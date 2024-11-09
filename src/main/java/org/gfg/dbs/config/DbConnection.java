@@ -25,15 +25,15 @@ public class DbConnection {
         }
 
     }
-    @Bean
-    public DataSource getDataSource(){
-        DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.driverClassName("com.mysql.cj.jdbc.Driver");
-        builder.url("jdbc:mysql://localhost:3306/JBDL_76_DB");
-        builder.username("root");
-        builder.password("rootroot");
-        return builder.build();
-    }
+//    @Bean
+//    public DataSource getDataSource(){
+//        DataSourceBuilder builder = DataSourceBuilder.create();
+//        builder.driverClassName("com.mysql.cj.jdbc.Driver");
+//        builder.url("jdbc:mysql://localhost:3306/JBDL_76_DB");
+//        builder.username("root");
+//        builder.password("rootroot");
+//        return builder.build();
+//    }
 
 }
 // finally is associated with try
